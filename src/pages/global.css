@@ -1,0 +1,136 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5; /* 整個頁面的背景顏色 */
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  height: 100%; /* 確保 html 和 body 佔滿整個視窗高度 */
+}
+
+.seperateLine {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/****************************************
+ * ABout
+ ****************************************/
+
+.seperateLine div {
+  width: 100%; /* 確保線條寬度充滿整個容器 */
+}
+
+.About {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.aboutContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  text-align: center;
+  overflow: hidden;
+  /* background-color: rgb(30, 43, 39); */
+  /* background-image: url('./aboutBackground.jpg'); */
+  opacity: 0.80;
+}
+
+.aboutContainer h3{
+  font-size: 1.5rem;
+  color: rgb(4, 3, 3);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  position: relative;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(5px);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.words {
+  font-size: 1rem;
+  color: rgb(4, 3, 3);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  position: relative;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(5px);
+  padding: 10px;
+  border-radius: 5px;
+}
+/*************** Card ******************/
+
+
+/****************************************
+ * Pictures
+ ****************************************/
+
+ .roomContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #fff5f5;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Noto Serif', serif; /* This font can be replaced with a Chinese serif font */
+}
+
+.roomCard{
+  margin-top: 1rem;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 85%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  background-color: #fff; 
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.roomCard img{
+  margin-top: 1rem;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.roomCard:hover {
+  transform: translateY(-10px); /* Slight lift effect on hover */
+}
+
+.roomTitle{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: large;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f5f5f5;
+}
+
+.roomCard h2 {
+  text-align: center;
+  color: #c44536; /* Color that complements the theme */
+  padding: 20px 0; /* Spacing for the title */
+}
+
+.roomContent {
+  color: #333; /* Darker text for contrast */
+  padding: 10px 20px; /* Spacing around content */
+  border-top: 1px solid #eee; /* Separator for content */
+  background-color: #fafafa; /* Slightly off-white background */
+}
+
+/****************************************
+ * Contact
+ ****************************************/
+
+
+
+
